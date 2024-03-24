@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+</head>
+<body>
+    <h2>registration</h2>
+
+    <form action="profile.py" method="get">
+        <div>
+            <label for="name">first name</label>
+            <input type="text" name="name" id="name" placeholder="name" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="surname">last name</label>
+            <input type="text" name="surname" id="surname" placeholder="surname">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="gender">gender? </label>
+
+            <label>Man</label>
+            <input type="radio" name="gender" id="man">
+
+            <label>Woman</label>
+            <input type="radio" name="gender" id="woman">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="age">age</label>
+            <input type="number" name="age" id="age" placeholder="age" min="0" max="999" value="18">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">email</label>
+            <input type="email" name="email" id="email" placeholder="test@test.com">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="password">password</label>
+            <input type="password" name="password" id="password" placeholder="password" maxlength="12">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="password">password</label>
+            <input type="password" name="password" id="password" placeholder="repeat password" maxlength="12">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="checkbox">i agree to privacy policy </label>
+            <input type="checkbox" name="checkbox" id="checkbox">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+    <br>
+    <a href="../registration_login_websites/login.html">login</a>
+
+</body>
+</html>
